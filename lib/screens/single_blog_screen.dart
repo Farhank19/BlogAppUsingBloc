@@ -14,7 +14,9 @@ class SingleBlogScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xffffffff),
       appBar: AppBar(
+        backgroundColor: const Color(0xfffefefe),
         title: const Text('Blog Detail'),
         centerTitle: true,
       ),

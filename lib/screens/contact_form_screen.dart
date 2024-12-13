@@ -24,7 +24,9 @@ class _ContactFormScreenState extends State<ContactFormScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xffffffff),
       appBar: AppBar(
+        backgroundColor: const Color(0xfffefefe),
         title: const Text('Contact Us'),
         centerTitle: true,
       ),
